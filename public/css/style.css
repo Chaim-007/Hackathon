@@ -31,6 +31,7 @@ nav ul{
     margin-left: 7vw;
     background: url('/assets/NASA_X.jpg') no-repeat;
     background-size: cover;
+    border-radius: 50%;
     }
 
 nav a{
@@ -54,7 +55,9 @@ nav .login{
 }
 
 .heading{
+    width: 50vw;
     display: flex;
+    color: white;
     flex-direction: column;
     justify-content: center;
 }
@@ -66,10 +69,11 @@ nav .login{
 }
 
 .illus{
-    height: 20vw;
-    width: 20vw;
+    height: 18vw;
+    width: 17vw;
     padding-right: 5vw;
     background: url('/assets/i2.jpg') no-repeat;
+    border-radius: 50%;
 }
 
 .about-main{
@@ -87,7 +91,7 @@ nav .login{
 .about-heading{
     display: flex;
     flex-direction: column;
-    padding-top: 4vw;
+    margin-top: -5vw;
 }
 
 .about-heading p{
@@ -189,7 +193,7 @@ nav .login{
 .verify-box{
     width: 30vw;
     height: 30vh;
-    background-color: #FFD524;
+    background-color: orange;
     border-radius: 10px;
     padding: 2vw;
 }
@@ -221,7 +225,7 @@ nav .login{
 .info-box{
     width: 30vw;
     height: 15vw;
-    background-color: white;
+    background-color: orange;
     border-radius: 10px;
     display: flex;
 }
