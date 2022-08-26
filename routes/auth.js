@@ -68,7 +68,7 @@ router.get('/callback', async (req, res)=>{
     .then((doc)=>{
         if(doc){
             req.session.user = doc
-            res.redirect('/posts')
+            res.redirect('/profile')
         }else{
 
             const newUser = new Users({
