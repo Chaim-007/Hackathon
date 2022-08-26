@@ -80,6 +80,7 @@ nav .login{
     width: 17vw;
     padding-right: 5vw;
     background: url('/assets/i2.jpg') no-repeat;
+    background-position: left center;
     border-radius: 50%;
 }
 
@@ -381,8 +382,8 @@ nav .login{
 }
 
 div.main{
-    width: 400px;
-    margin: 100px auto 0px auto;
+    width: 100vw;
+    margin: 1vw;
 }
 
 h2{
