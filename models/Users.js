@@ -20,15 +20,6 @@ const userSchema = new mongoose.Schema({
         type: Boolean,
         default: false,
     },
-    posts: {
-        type: Array,
-    },
-    notifs: {
-        type: Array,
-    },
-    likedPosts: {
-        type: Array,
-    },
     date: {
         type: Date,
         default: new Date,

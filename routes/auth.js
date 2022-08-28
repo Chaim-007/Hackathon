@@ -3,6 +3,7 @@ const axios = require('axios');
 const urlParse = require('url-parse');
 const qs = require('query-string');
 const Users = require('../models/Users');
+const Register = require('../models/Register');
 const {isAuthorized} = require('../config/authCheck');
 require('dotenv').config()
 
